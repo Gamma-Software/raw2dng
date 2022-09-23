@@ -211,6 +211,9 @@
 #elif defined(_ARM_)
 #define qDNGBigEndian 0
 
+#elif defined(__aarch64__)
+#define qDNGBigEndian 0
+
 #else
 
 #ifndef qXCodeRez
